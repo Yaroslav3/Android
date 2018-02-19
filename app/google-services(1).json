@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1075684192987",
+    "firebase_url": "https://xz-progect.firebaseio.com",
+    "project_id": "xz-progect",
+    "storage_bucket": "xz-progect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075684192987:android:ab157b995a7e0b90",
+        "android_client_info": {
+          "package_name": "miracleit.com.xz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075684192987-4nad6gulr0b6t5h11p8ctfhvqd4d1m46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB03gtmI2pW5uAb559nO6LRihIukVPI-o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

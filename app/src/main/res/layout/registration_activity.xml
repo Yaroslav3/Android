@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images1">
+
+    <EditText
+        android:id="@+id/txt_registration_loginAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:hint="new login"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_registration_passwordAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_registration_loginAdd"
+        android:layout_below="@+id/txt_registration_loginAdd"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="new password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="57dp"
+        android:layout_marginEnd="13dp"
+        android:onClick="registration"
+        android:background="@color/colorPrimary"
+        android:text="@string/registration" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="You are logged in please enter your username and password"
+        android:textColor="#ad7ec1"/>
+</RelativeLayout>
